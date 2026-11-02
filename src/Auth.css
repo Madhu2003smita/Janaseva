@@ -1,0 +1,23 @@
+.login-screen { min-height: 100vh; display: grid; place-items: center; padding: 28px 16px; background: radial-gradient(ellipse at 50% 30%, #eaf0f7 0, #f7f8fb 62%); }
+.login-language { position: fixed; top: 20px; right: 23px; }
+.login-language button { padding: 7px 10px; color: #536b88; background: #fff; border: 1px solid #e1e7ee; border-radius: 6px; font: inherit; font-size: 10px; cursor: pointer; }
+.login-card { width: min(100%, 360px); padding: 29px; text-align: center; background: #fff; border: 1px solid #e7ebf0; border-radius: 12px; box-shadow: 0 16px 45px #152b4510; }
+.login-brand-mark { width: 43px; height: 43px; display: grid; place-items: center; margin: 0 auto 7px; color: #fff; background: linear-gradient(145deg, #f3a34b, #d9782d); border-radius: 12px; font-size: 27px; font-weight: 700; }
+.login-brand-caption { color: #8896a8; font-size: 8px; font-weight: 700; letter-spacing: 1px; }
+.login-card h1 { margin: 23px 0 5px; font-size: 20px; letter-spacing: -.3px; }
+.login-subtitle { color: #8290a1; font-size: 10px; line-height: 1.6; }
+.login-card form { display: grid; gap: 13px; margin-top: 23px; text-align: left; }
+.login-card form label { display: grid; gap: 6px; color: #546278; font-size: 9px; font-weight: 650; }
+.password-input-wrap { position: relative; display: block; }
+.login-card .password-input-wrap input { padding-right: 38px; }
+.password-visibility { position: absolute; top: 50%; right: 4px; width: 30px; height: 30px; display: grid; place-items: center; padding: 0; color: #718198; background: transparent; border: 0; border-radius: 5px; transform: translateY(-50%); cursor: pointer; }
+.password-visibility:hover { color: #315a87; background: #f0f4f8; }
+.password-visibility:focus-visible { outline: 2px solid #8ca9ca; outline-offset: 1px; }
+.login-card input { width: 100%; height: 37px; padding: 0 10px; color: #34445a; background: #fff; border: 1px solid #e1e6ed; border-radius: 6px; font: inherit; font-size: 10px; }
+.login-card input:focus { border-color: #8ca9ca; outline: 2px solid #7d9ec31a; }
+.login-card form > button { height: 37px; margin-top: 3px; display: flex; align-items: center; justify-content: center; gap: 7px; color: #fff; background: #315a87; border: 0; border-radius: 6px; font: inherit; font-size: 10px; font-weight: 650; cursor: pointer; }
+.login-card form > button:hover:not(:disabled) { background: #254a75; }
+.login-card form > button:disabled { opacity: .7; cursor: progress; }
+.login-error { padding: 8px 9px; color: #a45b59; background: #fcf1f0; border: 1px solid #f1dfdd; border-radius: 5px; font-size: 9px; line-height: 1.5; }
+.login-secure { display: flex; align-items: center; justify-content: center; gap: 6px; margin-top: 21px; color: #819082; font-size: 8px; }
+.login-secure svg { color: #4b9b78; }

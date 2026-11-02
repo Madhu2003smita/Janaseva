@@ -1,0 +1,32 @@
+:root {
+  font-family: Inter, "Noto Sans Oriya", "Nirmala UI", "Segoe UI", Arial, sans-serif;
+  color: #17243b;
+  background: #f7f8fb;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+* { box-sizing: border-box; }
+
+html { min-width: 320px; scroll-behavior: smooth; }
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  font-size: 13px;
+}
+
+button, input, select { font-family: inherit; }
+button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible, a:focus-visible { outline: 3px solid #1e5b91; outline-offset: 2px; }
+
+.skip-link { position: fixed; top: 8px; left: 8px; z-index: 200; transform: translateY(-160%); padding: 10px 14px; color: #fff; background: #173c61; border-radius: 5px; font-size: 13px; font-weight: 650; }
+.skip-link:focus { transform: translateY(0); }
+
+#root { min-height: 100vh; }
+
+::selection { color: #19304e; background: #dbe8f6; }

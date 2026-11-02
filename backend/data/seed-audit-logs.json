@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "300000000000000000000001",
+    "applicationId": "100000000000000000000001",
+    "actor": "000000000000000000000002",
+    "action": "Application submitted",
+    "previousStatus": null,
+    "newStatus": "Document verification",
+    "remarks": "Fictional sample application added by the JSON seed data.",
+    "timestamp": "2026-11-01T10:42:00.000Z"
+  },
+  {
+    "_id": "300000000000000000000002",
+    "applicationId": "100000000000000000000002",
+    "actor": "000000000000000000000002",
+    "action": "Application submitted",
+    "previousStatus": null,
+    "newStatus": "Field verification",
+    "remarks": "Fictional sample application added by the JSON seed data.",
+    "timestamp": "2026-11-01T09:18:00.000Z"
+  },
+  {
+    "_id": "300000000000000000000003",
+    "applicationId": "100000000000000000000003",
+    "actor": "000000000000000000000001",
+    "action": "Application submitted",
+    "previousStatus": null,
+    "newStatus": "Application received",
+    "remarks": "Fictional sample application added by the JSON seed data.",
+    "timestamp": "2026-11-01T08:56:00.000Z"
+  }
+]

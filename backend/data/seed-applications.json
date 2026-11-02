@@ -1,0 +1,66 @@
+[
+  {
+    "_id": "100000000000000000000001",
+    "applicationId": "INC-2026-0842",
+    "applicant": { "fullName": "Sabitri Pradhan", "fatherOrGuardianName": "Bansidhar Pradhan", "mobile": "+91 90000 10042" },
+    "address": { "address": "Village: Jatni, Ward No. 8", "district": "Khordha", "block": "Jatni", "gramPanchayat": "Jatni" },
+    "annualIncome": 96000,
+    "submittedAt": "2026-11-01T10:42:00.000Z",
+    "assignedOfficer": "000000000000000000000002",
+    "currentStatus": "Document verification",
+    "priority": "Urgent",
+    "documents": [
+      { "_id": "200000000000000000000001", "documentType": "aadhaar", "applicable": true, "required": true, "verificationStatus": "Pending", "officerRemarks": "", "fileMetadata": { "originalName": "sample-aadhaar.pdf", "mimeType": "application/pdf", "size": 1200, "storageKey": "seed://fictional/aadhaar", "uploadedAt": "2026-11-01T10:42:00.000Z" } },
+      { "_id": "200000000000000000000002", "documentType": "ration", "applicable": true, "required": true, "verificationStatus": "Verified", "officerRemarks": "Name matches application.", "fileMetadata": { "originalName": "sample-ration.pdf", "mimeType": "application/pdf", "size": 1400, "storageKey": "seed://fictional/ration", "uploadedAt": "2026-11-01T10:42:00.000Z" } },
+      { "_id": "200000000000000000000003", "documentType": "declaration", "applicable": true, "required": true, "verificationStatus": "Needs correction", "officerRemarks": "Applicant signature is unclear.", "fileMetadata": { "originalName": "sample-declaration.pdf", "mimeType": "application/pdf", "size": 1100, "storageKey": "seed://fictional/declaration", "uploadedAt": "2026-11-01T10:42:00.000Z" } },
+      { "_id": "200000000000000000000004", "documentType": "salary", "applicable": false, "required": false, "verificationStatus": "Pending", "officerRemarks": "" },
+      { "_id": "200000000000000000000005", "documentType": "supporting", "applicable": true, "required": false, "verificationStatus": "Pending", "officerRemarks": "", "fileMetadata": { "originalName": "sample-support.pdf", "mimeType": "application/pdf", "size": 900, "storageKey": "seed://fictional/supporting", "uploadedAt": "2026-11-01T10:42:00.000Z" } }
+    ],
+    "verificationRemarks": "",
+    "createdBy": "000000000000000000000002",
+    "createdAt": "2026-11-01T10:42:00.000Z",
+    "updatedAt": "2026-11-01T10:42:00.000Z"
+  },
+  {
+    "_id": "100000000000000000000002",
+    "applicationId": "INC-2026-0841",
+    "applicant": { "fullName": "Rakesh Kumar Sahu", "fatherOrGuardianName": "Prasanna Kumar Sahu", "mobile": "+91 90000 10041" },
+    "address": { "address": "Village: Niali, Near High School", "district": "Khordha", "block": "Niali", "gramPanchayat": "Niali" },
+    "annualIncome": 128000,
+    "submittedAt": "2026-11-01T09:18:00.000Z",
+    "assignedOfficer": "000000000000000000000003",
+    "currentStatus": "Field verification",
+    "priority": "High",
+    "documents": [
+      { "_id": "200000000000000000000006", "documentType": "aadhaar", "applicable": true, "required": true, "verificationStatus": "Verified", "officerRemarks": "", "fileMetadata": { "originalName": "sample-aadhaar.pdf", "mimeType": "application/pdf", "size": 1000, "storageKey": "seed://fictional/aadhaar-2", "uploadedAt": "2026-11-01T09:18:00.000Z" } },
+      { "_id": "200000000000000000000007", "documentType": "ration", "applicable": true, "required": true, "verificationStatus": "Verified", "officerRemarks": "", "fileMetadata": { "originalName": "sample-ration.pdf", "mimeType": "application/pdf", "size": 1000, "storageKey": "seed://fictional/ration-2", "uploadedAt": "2026-11-01T09:18:00.000Z" } },
+      { "_id": "200000000000000000000008", "documentType": "declaration", "applicable": true, "required": true, "verificationStatus": "Verified", "officerRemarks": "", "fileMetadata": { "originalName": "sample-declaration.pdf", "mimeType": "application/pdf", "size": 1000, "storageKey": "seed://fictional/declaration-2", "uploadedAt": "2026-11-01T09:18:00.000Z" } }
+    ],
+    "verificationRemarks": "",
+    "createdBy": "000000000000000000000002",
+    "createdAt": "2026-11-01T09:18:00.000Z",
+    "updatedAt": "2026-11-01T09:18:00.000Z"
+  },
+  {
+    "_id": "100000000000000000000003",
+    "applicationId": "INC-2026-0840",
+    "applicant": { "fullName": "Manoj Nayak", "fatherOrGuardianName": "Gopinath Nayak", "mobile": "+91 90000 10040" },
+    "address": { "address": "Village: Satyabadi, Main Road", "district": "Puri", "block": "Satyabadi", "gramPanchayat": "Sakshigopal" },
+    "annualIncome": 84000,
+    "submittedAt": "2026-11-01T08:56:00.000Z",
+    "assignedOfficer": null,
+    "currentStatus": "Application received",
+    "priority": "Normal",
+    "documents": [
+      { "_id": "200000000000000000000009", "documentType": "aadhaar", "applicable": true, "required": true, "verificationStatus": "Pending", "officerRemarks": "" },
+      { "_id": "20000000000000000000000a", "documentType": "ration", "applicable": true, "required": true, "verificationStatus": "Pending", "officerRemarks": "" },
+      { "_id": "20000000000000000000000b", "documentType": "declaration", "applicable": true, "required": true, "verificationStatus": "Pending", "officerRemarks": "" },
+      { "_id": "20000000000000000000000c", "documentType": "salary", "applicable": false, "required": false, "verificationStatus": "Pending", "officerRemarks": "" },
+      { "_id": "20000000000000000000000d", "documentType": "supporting", "applicable": false, "required": false, "verificationStatus": "Pending", "officerRemarks": "" }
+    ],
+    "verificationRemarks": "",
+    "createdBy": "000000000000000000000001",
+    "createdAt": "2026-11-01T08:56:00.000Z",
+    "updatedAt": "2026-11-01T08:56:00.000Z"
+  }
+]

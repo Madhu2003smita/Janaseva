@@ -1,0 +1,35 @@
+[
+  {
+    "_id": "000000000000000000000001",
+    "name": "Sanjay Patnaik",
+    "email": "admin@janaseva.local",
+    "passwordHash": "$2b$12$8gAHtm8x.xljY2lNFiIkBOt/coWzfbR6J39MuST7rBIta9oGgGpuq",
+    "role": "ADMIN",
+    "district": "Khordha",
+    "active": true,
+    "createdAt": "2026-11-01T08:00:00.000Z",
+    "updatedAt": "2026-11-01T08:00:00.000Z"
+  },
+  {
+    "_id": "000000000000000000000002",
+    "name": "Ananya Mishra",
+    "email": "revenue@janaseva.local",
+    "passwordHash": "$2b$12$8gAHtm8x.xljY2lNFiIkBOt/coWzfbR6J39MuST7rBIta9oGgGpuq",
+    "role": "REVENUE_OFFICER",
+    "district": "Khordha",
+    "active": true,
+    "createdAt": "2026-11-01T08:00:00.000Z",
+    "updatedAt": "2026-11-01T08:00:00.000Z"
+  },
+  {
+    "_id": "000000000000000000000003",
+    "name": "Bikash Das",
+    "email": "field@janaseva.local",
+    "passwordHash": "$2b$12$8gAHtm8x.xljY2lNFiIkBOt/coWzfbR6J39MuST7rBIta9oGgGpuq",
+    "role": "FIELD_OFFICER",
+    "district": "Khordha",
+    "active": true,
+    "createdAt": "2026-11-01T08:00:00.000Z",
+    "updatedAt": "2026-11-01T08:00:00.000Z"
+  }
+]
